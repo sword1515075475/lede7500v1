@@ -25,3 +25,7 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
 # 常用插件包
 # git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
+# AdGuardHome的openwrt的luci界面
+git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
+# KoolProxy 的 LuCI 控制界面
+git clone https://github.com/iwrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
