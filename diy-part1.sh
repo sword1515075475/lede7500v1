@@ -14,5 +14,12 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+#echo 'src-git helloworld https://github.com//helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+
+# 流量统计
+git clone https://github.com/AlexZhuo/luci-app-bandwidthd.git package/luci-app-bandwidthd
+# 应用过滤
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+# clash代理
+git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
