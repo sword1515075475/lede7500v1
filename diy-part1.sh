@@ -24,4 +24,4 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 # clash代理
 git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
 # 常用插件包
-＃　git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
+# git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
