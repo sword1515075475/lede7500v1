@@ -30,4 +30,4 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app
 # KoolProxy 的 LuCI 控制界面
 git clone https://github.com/iwrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
 # wdr4310
-git clone https://github.com/maximaqiu/openpack package/lean
+# git clone https://github.com/maximaqiu/openpack package/lean
