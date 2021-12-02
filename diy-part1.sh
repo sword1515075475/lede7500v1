@@ -29,4 +29,4 @@ git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-cla
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 # KoolProxy 的 LuCI 控制界面
 git clone https://github.com/iwrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
-git clone https://github.com/coolsnowwolf/packages/lean package/lean
+# git clone https://github.com/coolsnowwolf/packages/lean package/lean
