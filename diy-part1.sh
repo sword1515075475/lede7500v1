@@ -29,5 +29,5 @@ git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-cla
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 # KoolProxy 的 LuCI 控制界面
 git clone https://github.com/iwrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
-# wdr4310
-# git clone https://github.com/maximaqiu/openpack package/lean
+# adblock-plus 编译时请取消勾选base-system -> dnsmasq 选dnsmasq-full
+git clone https://github.com/small-5/luci-app-adblock-plus.git package/luci-app-adblock-plus
