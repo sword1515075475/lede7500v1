@@ -31,3 +31,5 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app
 git clone https://github.com/iwrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
 # wdr4310
 # git clone https://github.com/maximaqiu/openpack package/lean
+# adblock-plus 编译时请取消勾选base-system -> dnsmasq 选dnsmasq-full
+git clone https://github.com/small-5/luci-app-adblock-plus.git package/luci-app-adblock-plus
