@@ -22,12 +22,14 @@ git clone https://github.com/AlexZhuo/luci-app-bandwidthd.git package/luci-app-b
 # 应用过滤
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 # clash代理
-git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
+# git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
 # 常用插件包
 # git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
 # AdGuardHome的openwrt的luci界面
-git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
+# git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 # KoolProxy 的 LuCI 控制界面
 git clone https://github.com/iwrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
 # adblock-plus 编译时请取消勾选base-system -> dnsmasq 选dnsmasq-full
-git clone https://github.com/small-5/luci-app-adblock-plus.git package/luci-app-adblock-plus
+# git clone https://github.com/small-5/luci-app-adblock-plus.git package/luci-app-adblock-plus
+# 常用插件库
+git clone https://github.com/281677160/openwrt-package package/danshui
