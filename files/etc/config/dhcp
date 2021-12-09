@@ -18,6 +18,7 @@ config dnsmasq
 	option localservice '1'
 	option ednspacket_max '1232'
 	option noresolv '0'
+	option cachesize '1500'
 
 config dhcp 'lan'
 	option interface 'lan'
