@@ -30,7 +30,7 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 # KoolProxy 的 LuCI 控制界面
 git clone https://github.com/iwrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
 # adblock-plus 编译时请取消勾选base-system -> dnsmasq 选dnsmasq-full
-# git clone https://github.com/small-5/luci-app-adblock-plus.git package/luci-app-adblock-plus
+git clone https://github.com/small-5/luci-app-adblock-plus.git package/luci-app-adblock-plus
 # 常用插件库
 # git clone https://github.com/281677160/openwrt-package package/danshui
 svn co https://github.com/281677160/openwrt-package/trunk/feeds/luci/applications/luci-app-rebootschedule package/luci-app-rebootschedule
