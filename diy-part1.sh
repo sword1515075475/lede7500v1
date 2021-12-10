@@ -34,3 +34,7 @@ git clone https://github.com/small-5/luci-app-adblock-plus.git package/luci-app-
 # 常用插件库
 # git clone https://github.com/281677160/openwrt-package package/danshui
 svn co https://github.com/281677160/openwrt-package/trunk/feeds/luci/applications/luci-app-rebootschedule package/luci-app-rebootschedule
+
+# cpulime
+svn co https://github.com/kenzok8/jell/trunk/cpulimit cpulimit
+svn co https://github.com/kenzok8/jell/trunk/luci-app-cpulimit
