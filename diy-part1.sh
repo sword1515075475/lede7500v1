@@ -33,10 +33,10 @@ git clone https://github.com/AlexZhuo/luci-app-bandwidthd.git package/luci-app-b
 git clone https://github.com/small-5/luci-app-adblock-plus.git package/luci-app-adblock-plus
 # 常用插件库
 # git clone https://github.com/281677160/openwrt-package package/danshui
-svn co https://github.com/281677160/openwrt-package/trunk/feeds/luci/applications/luci-app-rebootschedule package/luci-app-rebootschedule
+svn co https://github.com/281677160/openwrt-package/trunk/luci-app-rebootschedule package/luci-app-rebootschedule
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos package/luci-app-eqos
-svn co https://github.com/281677160/openwrt-package/trunk/feeds/luci/applications/luci-app-advanced package/luci-app-advanced
-#svn co https://github.com/281677160/openwrt-package/trunk/feeds/luci/applications/luci-app-vssr package/luci-app-vssr
+svn co https://github.com/281677160/openwrt-package/trunk/luci-app-advanced package/luci-app-advanced
+#svn co https://github.com/281677160/openwrt-package/trunk/luci-app-vssr package/luci-app-vssr
 # vssr
 git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 # cpulime
