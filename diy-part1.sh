@@ -18,7 +18,7 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 # 流量统计
-git clone https://github.com/AlexZhuo/luci-app-bandwidthd.git package/luci-app-bandwidthd
+# git clone https://github.com/AlexZhuo/luci-app-bandwidthd.git package/luci-app-bandwidthd
 # 应用过滤
 # git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 # clash代理
@@ -30,7 +30,7 @@ git clone https://github.com/AlexZhuo/luci-app-bandwidthd.git package/luci-app-b
 # KoolProxy 的 LuCI 控制界面
 # git clone https://github.com/iwrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
 # adblock-plus 编译时请取消勾选base-system -> dnsmasq 选dnsmasq-full
-git clone https://github.com/small-5/luci-app-adblock-plus.git package/luci-app-adblock-plus
+# git clone https://github.com/small-5/luci-app-adblock-plus.git package/luci-app-adblock-plus
 # 常用插件库
 # git clone https://github.com/281677160/openwrt-package package/danshui
 svn co https://github.com/281677160/openwrt-package/trunk/luci-app-rebootschedule package/luci-app-rebootschedule
@@ -40,5 +40,5 @@ svn co https://github.com/281677160/openwrt-package/trunk/luci-app-advanced pack
 # vssr
 git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 # cpulime
-svn co https://github.com/kenzok8/jell/trunk/cpulimit package/cpulimit
-svn co https://github.com/kenzok8/jell/trunk/luci-app-cpulimit package/luci-app-cpulimit
+# svn co https://github.com/kenzok8/jell/trunk/cpulimit package/cpulimit
+# svn co https://github.com/kenzok8/jell/trunk/luci-app-cpulimit package/luci-app-cpulimit
