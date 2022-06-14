@@ -8,7 +8,7 @@ config system
 	option log_proto 'udp'
 	option conloglevel '8'
 	option cronloglevel '8'
-	option hostname 'Huawei'
+	option hostname 'OPENWRT'
 
 config timeserver 'ntp'
 	option enabled '1'
@@ -16,9 +16,3 @@ config timeserver 'ntp'
 	list server 'time1.cloud.tencent.com'
 	list server 'time.ustc.edu.cn'
 	list server 'cn.pool.ntp.org'
-
-config led
-	option name 'wifi'
-	option sysfs 'green:wifi'
-	option default '1'
-	option trigger 'none'
