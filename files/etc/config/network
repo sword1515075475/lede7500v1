@@ -6,32 +6,33 @@ config interface 'loopback'
 	option netmask '255.0.0.0'
 
 config globals 'globals'
+	option ula_prefix 'fdcf:9e31:bcb9::/48'
 
 config interface 'lan'
 	option type 'bridge'
 	option ifname 'eth1.1'
 	option proto 'static'
-	option ipaddr '192.168.8.1'
+	option ipaddr '192.168.1.1'
 	option netmask '255.255.255.0'
 	option ip6assign '60'
 
 config device 'lan_eth1_1_dev'
 	option name 'eth1.1'
-	option macaddr 'c0:56:27:09:d5:10'
+	option macaddr '14:91:82:69:50:20'
 
 config interface 'wan'
 	option ifname 'eth0.2'
 	option _orig_ifname 'eth0.2'
 	option _orig_bridge 'false'
-	option proto 'static'
-	option ipaddr '192.168.1.4'
-	option netmask '255.255.255.0'
-	option gateway '192.168.1.1'
-	option dns '114.114.114.114 119.29.29.29 101.226.4.6 223.5.5.5'
+	option proto 'pppoe'
+	option username '059797031340'
+	option password '1515075475'
+	option ipv6 'auto'
+	option keepalive '0'
 
 config device 'wan_eth0_2_dev'
 	option name 'eth0.2'
-	option macaddr 'c0:56:27:09:d5:10'
+	option macaddr '14:91:82:69:50:20'
 
 config interface 'wan6'
 	option ifname 'eth0.2'
@@ -45,10 +46,10 @@ config switch
 config switch_vlan
 	option device 'switch0'
 	option vlan '1'
-	option ports '1 2 3 4 6t'
+	option ports '2 3 4 5 6t'
 
 config switch_vlan
 	option device 'switch0'
 	option vlan '2'
-	option ports '5 0t'
+	option ports '1 0t'
 
