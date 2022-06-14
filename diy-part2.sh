@@ -20,7 +20,7 @@
 # 版本号里显示自己名字
 # sed -i "s/OpenWrt /Max build $CATALINA_BASE(TZ=UTC-8 date "+%Y.%m.%d") @ Linksys EA8500 Router /g" package/lean/default-settings/files/zzz-default-settings
 
-sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-sfe/popd/zh-cn/sfe.po
+# sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-sfe/popd/zh-cn/sfe.po
 
 # 修改DNS
 # sed -i "2i # network config" package/lean/default-settings/files/zzz-default-settings
