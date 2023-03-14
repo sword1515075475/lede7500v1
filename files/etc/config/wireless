@@ -26,7 +26,7 @@ config wifi-device 'radio1'
 	option country 'US'
 	option legacy_rates '0'
 	option mu_beamformer '1'
-	option channel '149'
+	option channel '157'
 	option txpower '25'
 
 config wifi-iface 'default_radio1'
